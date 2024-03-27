@@ -1,0 +1,13 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  color: #808080;
+}
+.footerLogo {
+  font-weight: bold;
+}
+.footerText {
+  font-size: 12px;
+}

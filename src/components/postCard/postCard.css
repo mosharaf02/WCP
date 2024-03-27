@@ -1,0 +1,36 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.postTop {
+  display: flex;
+}
+.postImage {
+  width: 90%;
+  height: 400px;
+  position: relative;
+}
+.postImg {
+  object-fit: cover;
+}
+.postDate {
+  font-size: 12px;
+  transform: rotate(270deg);
+  margin: auto;
+}
+.postTitle {
+  width: 90%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.postDoc {
+  width: 90%;
+  margin-bottom: 20px;
+  color: gray;
+  font-weight: 300;
+}
+.postLink {
+  text-decoration: underline;
+}

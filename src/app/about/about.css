@@ -1,0 +1,52 @@
+.aboutContainer {
+  display: flex;
+  gap: 100px;
+}
+.aboutText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.aboutImg {
+  flex: 1;
+  position: relative;
+}
+.aboutSubTitle {
+  font-size: 44px;
+}
+.aboutTitle {
+  color: var(--btn);
+}
+.aboutDec {
+  font-size: 20px;
+  font-weight: 300;
+}
+.aboutBoxs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aboutBox h1 {
+  color: var(--btn);
+}
+.aboutImgs {
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .aboutBoxs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
